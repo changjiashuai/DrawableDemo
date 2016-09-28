@@ -22,6 +22,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="clickTransitionDrawable"/>
+    <Button
+            android:text="clickShapeDrawable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickShapeDrawable"/>
 
     <ImageView
             android:id="@+id/iv_test"

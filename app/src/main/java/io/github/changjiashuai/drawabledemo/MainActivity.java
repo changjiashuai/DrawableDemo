@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TransitionActivity.class);
         startActivity(intent);
     }
+
+    public void clickShapeDrawable(View view){
+        Intent intent = new Intent(this, ShapeActivity.class);
+        startActivity(intent);
+    }
 }
