@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".ShapeActivity">
         </activity>
+        <activity android:name=".VectorActivity">
+        </activity>
     </application>
 
 </manifest>

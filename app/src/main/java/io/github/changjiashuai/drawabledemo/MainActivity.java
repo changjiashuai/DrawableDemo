@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ShapeActivity.class);
         startActivity(intent);
     }
+
+    public void clickVectorDrawable(View view){
+        Intent intent = new Intent(this, VectorActivity.class);
+        startActivity(intent);
+    }
 }
